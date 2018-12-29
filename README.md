@@ -13,10 +13,10 @@ We analyze the "Airline Route Mapper Route Database" which maps 3'321 airports (
 
 ### Research Questions
 
-- **How prevalent are the alliances in the global flight route network?** 
+- **How prevalent are the alliances in the global flight route network?** (Marie)
      - For each alliance i, label the airports served by an alliance i flight, and compare the density of the alliance i airport network to the whole network density (check if the alliance network is connected, and maybe there are interesting relations between the big component/small components and the alliances), and do this analysis 3 times. Then do the same analysis but for all the alliances together. This should allow us to see how many airports are not served by alliance airlines, and what is the proportion of airports that are served by one alliance compared to airports served by 2 or all the alliances.
     
-- **Is the alliance business a hub thing?**
+- **Is the alliance business a hub thing?** (Marie)
     - We label the airports by the number of alliances flights that serve it (0, 1, 2 or 3) and we analyze the correlation between this number and the degree of the airport. We expect that a lower degree airport is less likely to be connected to the alliance network than big hubs.
     - Case study on big cities which have multiple airports (e.g. London, Paris, Rome): is there a trend that only a few airports are served by alliance airports? If yes, then how does the correlation from the previous point change if we substract "the big city non-alliance airports", to get a better insight of the geographic expansion (vs. airport expansion) of the alliance network (maybe sth. to consider on the previous question as well).
     
