@@ -1,7 +1,7 @@
 # Project Network Tour of Data Sciences
 ## Title: Flight network and airline alliances 
 
-Github repository of the final project of the class *EE-558, A Network Tour of Data Science,EPFL*. This readme contains an abstract with our problem definition, the datasets we used to analyze the problem and the different research questions we tackle. The code is found in the jupyter notebook `main_analysis.ipynb`. The libraries needed are listed below. 
+Github repository of the final project of the class *EE-558, A Network Tour of Data Science, EPFL*. This readme contains an abstract with our problem definition, the datasets we used to analyze the problem and the different research questions we tackle. The code is found in the jupyter notebook `main_analysis.ipynb`. The libraries needed are listed below. 
 
 ### Libraries used
 We used the following libraries for this project, with Python 3.6.5
@@ -55,7 +55,7 @@ In a first step we validate our algorithm by only working on the alliance networ
 
 * *Gabor Csordas*
 * *Nicolas Fontbonne*
-* *Maëlle Le Clainche
+* *Maëlle Le Clainche*
 * *Marie Sadler*
 
     
