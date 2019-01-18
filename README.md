@@ -24,10 +24,10 @@ We analyze the "Airline Route Mapper Route Database" which maps 3'321 airports (
     We label the airports by the number of alliances flights that serve it (0, 1, 2 or 3) and we analyze the correlation between this number and the degree of the airport. We expect that a lower degree airport is less likely to be connected to the alliance network than big hubs.
     
 - **Which part of the world is dominated by who, and what is a likely expansion?**
-    - Geographic distribution of the alliances 
+    - **Geographic distribution of the alliances **: 
 Each airline has a country of origin, and we can also associate each airport to a country. We then start the analysis by identifying the major alliance for each airport (for each airport count the number of edges for each alliance and attribute the airport to the alliance with the maximum count, in case of a tie, the airport is labelled by the two or three major alliances). We then have a graph with 3 labels, and nodes with an unknown label, if not served by an alliance company. A validation step of this approach is then to see whether the country of the airport is the same as the country of one of the airlines inside the alliance. When plotting the result on the worldmap, we might see geographic differences between the alliances.
     
-    - Airport expansion of the alliances predicted through label propagation 
+    - **Airport expansion of the alliances predicted through label propagation**:  
 We study the expansion of the alliances through label propagation. The underlying concept is that airport not yet served by an alliance will be served by the alliance occurring with the highest frequency among its neighbours. Each neighbour has one vote, independent of how connected it is, and an airport may be labelled by 2 or 3 alliances if there is a tie among the node degree between the alliances (at the step of the initial labelling) or a tie between the vote comparison (at the step of attributing the label) (see illustration below).
 In a first step we validate our algorithm by only working on the alliance network and by randomly unlabelling half of the nodes for which we know the major alliance serving it. This allows us to get some accuracy scores and to see if our algorithm is valid. In a second step, we keep all the airports labelled which are served by an alliance and through label propagation we predict the likely alliance expansion (we predict a label for all the airports inside our largest connected component).
     
