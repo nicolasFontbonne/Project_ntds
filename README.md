@@ -32,10 +32,10 @@ We analyze the "Airline Route Mapper Route Database" which maps 3'321 airports (
 
 ### Research Questions
 
-- **How prevalent are the alliances in the global flight route network?** (Marie)
+- **How prevalent are the alliances in the global flight route network?**
      Create a subnetwork for each individual alliance, which integrates all the edges/flights and nodes/airports that are flown and served, respectively, by an alliance airline member. Analyse the network properties and do comparisons between each alliance subnetwork, the whole alliance network and the whole flight network.
 
-- **Is the alliance business a hub thing?** (Marie)
+- **Is the alliance business a hub thing?**
     We label the airports by the number of alliances flights that serve it (0, 1, 2 or 3) and we analyze the correlation between this number and the degree of the airport. We expect that a lower degree airport is less likely to be connected to the alliance network than big hubs.
 
 - **Which part of the world is dominated by who, and what is a likely expansion?**
