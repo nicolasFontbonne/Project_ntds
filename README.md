@@ -47,8 +47,7 @@ We study the expansion of the alliances through label propagation. The underlyin
 In a first step we validate our algorithm by only working on the alliance network and by randomly unlabelling half of the nodes for which we know the major alliance serving it. This allows us to get some accuracy scores and to see if our algorithm is valid. In a second step, we keep all the airports labelled which are served by an alliance and through label propagation we predict the likely alliance expansion (we predict a label for all the airports inside our largest connected component).
 
 - **Can the alliances be predicted from the construction of an airline network?**
-    - We construct the airline network by giving different weights to the edges with respect to competitive alliances flights between two airports, and consecutive flights of the common alliance members. On this graph we see if we can cluster the airlines into the 3 major alliances (we probably tune the constructing weights parameters to make this happen). In this approach, we can also see if some airlines not yet part of an alliance are likely to become part of one. Again, we can validate that by checking recent fusions and negotiations.
-    - From this network, we could also check if we can identify the new alliances that formed (Vanilla Alliance, U-FLY Alliance, Value Aliance).
+    - We construct an airline network by giving different weights to the edges with respect to consecutive flights of the common alliance members. On this graph we see if we can cluster the airlines into the 3 major alliances (we probably tune the constructing weights parameters to make this happen). In this approach, we can also see if some airlines not yet part of an alliance are likely to become part of one. 
 
 
 ## Authors
