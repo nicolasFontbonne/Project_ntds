@@ -1,9 +1,24 @@
-# Project Network Tour of Data Sciences: 
-## Flight network and airline alliances 
+# Project Network Tour of Data Sciences
+## Title: Flight network and airline alliances 
 
-### REMOVE THE OVERLEAF LINK BEFORE SUBMITTING
+Github repository of the final project of the class *EE-558, A Network Tour of Data Science,EPFL*. This readme contains an abstract with our problem definition, the datasets we used to analyze the problem and the different research questions we tackle. The code is found in the jupyter notebook `main_analysis.ipynb`. The libraries needed are listed below. 
 
-Overleaf: https://www.overleaf.com/9477267966wjjtchkvnsnf  
+### Libraries used
+We used the following libraries for this project, with Python 3.6.5
+
+
+ Computational:
+
+    numpy (as np)
+    pandas (pd)
+    networkx (nx)
+
+Graphical:
+
+    seaborn (as sns) (version 0.9.0)
+    matplotlib (as plt)
+    folium
+
 
 ### Abstract
 
@@ -36,7 +51,11 @@ In a first step we validate our algorithm by only working on the alliance networ
     - From this network, we could also check if we can identify the new alliances that formed (Vanilla Alliance, U-FLY Alliance, Value Aliance).
 
 
+## Authors
 
-
+* *Gabor Csordas*
+* *Nicolas Fontbonne*
+* *Maëlle Le Clainche
+* *Marie Sadler*
 
     
